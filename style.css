@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  font-family:cursive;
+}
+
+.page {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.cv-header {
+  text-transform: uppercase; /*sert a mettre le texte en majuscule, minuscule,...*/
+  background-color:#ddb892;
+  text-align: center;
+  color: rgb(0, 136, 255);
+  padding: 2px;
+}
+
+.cv-main-title {
+  margin: 0;
+  font-size: 3em;
+  margin-bottom: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.cv-main-title-signature {
+  display: block
+}
+
+.cv-main-title small {
+  text-transform: lowercase;/*voir uppercase*/
+  color: rgba(0, 136, 255, 0.584);
+}
+
+.cv-main {
+  background-color: #b3895d;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+}
+
+.cv-article {
+  border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+.cv-article-title {
+  text-transform: uppercase;/*Voir uppercase*/
+}
+
+.element {
+  display: flex;
+  justify-content:space-evenly;
+  font-size: 3em;
+  width: 24em;
+}
+
+/*changé la couleur du lien*/
+a{
+    color: rgb(0, 0, 0);
+}
+
+ul li {
+  font-size: 1.2em;
+}
