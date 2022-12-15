@@ -50,7 +50,6 @@ body {
 }
 
 .element {
-  display: flex;
   justify-content:space-evenly;
   font-size: 3em;
   width: 24em;
