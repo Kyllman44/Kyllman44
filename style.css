@@ -49,7 +49,7 @@ body {
 }
 
 .element {
-  display: flex
+  display: flex;
   justify-content:space-evenly;
   font-size: 3em;
   width: 24em;
