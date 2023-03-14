@@ -48,16 +48,19 @@ body {
   text-transform: uppercase;/*Voir uppercase*/
 }
 
-.element {
-  display: flex;
-  justify-content:space-evenly;
+.element  a{
+  text-align: center;
   font-size: 3em;
-  width: 24em;
+  padding: 20px;
 }
 
 /*changé la couleur du lien*/
 a{
     color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 ul li {
