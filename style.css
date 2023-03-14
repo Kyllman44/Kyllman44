@@ -57,7 +57,11 @@ body {
 /*changé la couleur du lien*/
 a{
     color: rgb(0, 0, 0);
-
+    text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 
 ul li {
   font-size: 1.2em;
