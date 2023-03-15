@@ -13,9 +13,9 @@ body {
 
 .cv-header {
   text-transform: uppercase; /*sert a mettre le texte en majuscule, minuscule,...*/
-  background-color:#ddb892;
+  background-color:#F5C183;
   text-align: center;
-  color: rgb(0, 136, 255);
+  color: rgb(0, 0, 0);
   padding: 2px;
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 .cv-main {
-  background-color: #b3895d;
-  color: rgb(0, 0, 0);
+  background-color: #CE8F43;
+  color: rgb(255, 255, 255);
   padding: 1em;
 }
 
